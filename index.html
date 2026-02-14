@@ -1,0 +1,491 @@
+<!--                                                                                                          
+ $$$$$$\  $$\                                                   $$\            
+$$  __$$\ $$ |                                                  \__|           
+$$ /  $$ |$$ | $$$$$$\   $$$$$$\  $$$$$$$\   $$$$$$\  $$\   $$\ $$\ $$$$$$$\   
+$$$$$$$$ |$$ |$$  __$$\ $$  __$$\ $$  __$$\ $$  __$$\ $$ |  $$ |$$ |$$  __$$\  
+$$  __$$ |$$ |$$ /  $$ |$$ /  $$ |$$ |  $$ |$$ /  $$ |$$ |  $$ |$$ |$$ |  $$ | 
+$$ |  $$ |$$ |$$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |$$ |  $$ | 
+$$ |  $$ |$$ |\$$$$$$$ |\$$$$$$  |$$ |  $$ |\$$$$$$$ |\$$$$$$  |$$ |$$ |  $$ | 
+\__|  \__|\__| \____$$ | \______/ \__|  \__| \____$$ | \______/ \__|\__|  \__| 
+              $$\   $$ |                          $$ |                         
+              \$$$$$$  |                          $$ |                         
+               \______/                           \__|                         
+       $$$$$$\            $$\ $$\                                              
+      $$  __$$\           $$ |$$ |                                             
+      $$ /  \__| $$$$$$\  $$ |$$ | $$$$$$\   $$$$$$\   $$$$$$\                 
+      $$ |      $$  __$$\ $$ |$$ |$$  __$$\ $$  __$$\ $$  __$$\                
+      $$ |      $$ /  $$ |$$ |$$ |$$$$$$$$ |$$ /  $$ |$$$$$$$$ |               
+      $$ |  $$\ $$ |  $$ |$$ |$$ |$$   ____|$$ |  $$ |$$   ____|               
+      \$$$$$$  |\$$$$$$  |$$ |$$ |\$$$$$$$\ \$$$$$$$ |\$$$$$$$\                
+       \______/  \______/ \__|\__| \_______| \____$$ | \_______|               
+                                            $$\   $$ |                         
+                                            \$$$$$$  |                         
+                                             \______/                          
+$$$$$$$\                      $$\                  $$\                         
+$$  __$$\                     $$ |                 $$ |                        
+$$ |  $$ | $$$$$$\   $$$$$$$\ $$ |  $$\  $$$$$$\ $$$$$$\    $$$$$$\  $$\   $$\ 
+$$$$$$$  |$$  __$$\ $$  _____|$$ | $$  |$$  __$$\\_$$  _|  $$  __$$\ $$ |  $$ |
+$$  __$$< $$ /  $$ |$$ /      $$$$$$  / $$$$$$$$ | $$ |    $$ |  \__|$$ |  $$ |
+$$ |  $$ |$$ |  $$ |$$ |      $$  _$$<  $$   ____| $$ |$$\ $$ |      $$ |  $$ |
+$$ |  $$ |\$$$$$$  |\$$$$$$$\ $$ | \$$\ \$$$$$$$\  \$$$$  |$$ |      \$$$$$$$ |
+\__|  \__| \______/  \_______|\__|  \__| \_______|  \____/ \__|       \____$$ |
+                                                                     $$\   $$ |
+                                                                     \$$$$$$  |
+                                                                      \______/ 
+          What 
+                are 
+                      you 
+                            looking 
+                                      at?
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <!-- preloading Quantico font might improve performance -->
+  <link rel="preload" href="https://fonts.gstatic.com/s/quantico/v20/XYZ.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="shortcut icon" type="images/x-icon" href="assets/images/favicon.ico" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/slick.min.js"></script>
+  <script src="assets/js/lenis.min.js"></script>
+  <script src="assets/js/plugin.min.js"></script>
+  <script src="assets/js/locomotive-scroll.min.js"></script>
+
+
+  <title>ACRocketry - Algonquin Colleges Rocket Team</title>
+  <meta name="description" content="ACRocketry - Official Site of Alonquin College's Rocketry Team. Check out our site and take off with us.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://yourdomain.com/">
+
+  <!--social post -->
+<meta property="og:title" content="ACRocketry - Algonquin College Rocketry Team">
+<meta property="og:description" content="We Develop, Build, Design, and Compete advanced rockets.">
+<!-- The BIG IMAGE that shows up (1200x630px is standard) -->
+<meta property="og:image" content="https://yourdomain.com/assets/images/rocket-launch.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630"> 
+<meta property="og:url" content="https://yourdomain.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="ACRocketry">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ACRocketry - Algonquin College Rocketry Team">
+<meta name="twitter:description" content="We Develop, Build, Design, and Compete advanced rockets.">
+<meta name="twitter:image" content="https://yourdomain.com/assets/images/rocket-launch.jpg">
+<meta name="twitter:site" content="@ACRocketry"> <!-- Optional: Your team's Twitter handle -->
+<meta name="twitter:creator" content="@ACRocketry"> <!-- Optional: Content creator's handle -->
+
+</head>
+
+<body class="home">
+  <!-- header -->
+  <header class="navbar">
+    <div class="container">
+      <div class="header-row">
+        <div class="mobile-box">
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="logo">
+              ACR
+              <span>Est. 2025</span>
+            </a>
+          </div>
+        </div>
+        <div class="btn">
+          <a href="mailto:AlgonquinCollegeRocketry@gmail.com" target="_blank">Sponsor</a>
+        </div>
+      </div>
+      
+      </div>
+    </div>
+  </header>
+  <!-- wrapper -->
+  <main class="wrapper overflow-c" data-scroll-container>
+    <div class="gallery">
+      <!-- block home info -->
+      <section class="block-home-info">
+        <div class="container">
+          <div class="content">
+            <div class="media-box wowo fadeIn">
+              <img src="/assets/images/image.jpg" alt="">
+            </div>
+            <div class="top">
+              <div class="text wowo fadeInUp">
+                <h1>
+                   Algonquin College
+                  <span class="edit"
+                    data-text="Rocketry Team"></span>
+                </h1>
+              </div>
+            </div>
+            <div class="bottom">
+              <div class="text">
+                <p class="animated-text">
+                  Contact us <br>
+                  Social Media: ACRocketry <br>
+                  Number: (705)-985-3031 <br>
+                  AlgonquinCollegeRocketry@gmail.com <br>
+                  1385 Woodroffe Ave <br>
+                  Ottawa, On <br>
+                  <br>
+                </p>
+                <div class="btn wowo fadeInUp">
+                 
+                </div>
+              </div>
+              <div class="info wowo fadeInUp">
+                <div class="left">
+                  <ul>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+                <div class="right">
+                  <span>SCROLL</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- block text and gallery -->
+      <section class="block-text-and-gallery scroll-sticky" id="gallery">
+        <div class="container">
+          <div class="content">
+            <div class="mobile-img wowo fadeIn">
+              <video x5-playsinline playsinline webkit-playsinline preload autoplay muted loop
+                src="assets/images/"></video>
+            </div>
+            <div class="sticky-img wowo fadeIn" data-scroll data-scroll-repeat data-scroll-sticky
+              data-scroll-target="#gallery">
+              <div class="img-wrapper" data-scroll data-scroll-speed="1.2">
+                <div class="rellax-box">
+                  <div class="rellax" data-rellax-mobile-speed="-1">
+                    <video x5-playsinline playsinline webkit-playsinline preload autoplay muted loop
+                      src="assets/images/"></video>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <!--<div class="info wowo fadeInUp">
+                <div class="info-content">
+                  <h2>MONARCH</h2>
+                  <h3>Launch Canada 2026 Competition Rocket</h3>
+                  <p>
+                    Monarch is ACR's first competition rocket, built for the Launch Canada Challenge. It will mark the first college team to compete in this national event. The high-powered rocket targets an apogee of 11 km while exceeding Mach 2
+                  </p>
+                </div>
+              </div>-->
+              <div class="photo-wall">
+                <div class="photo-wrapper wowo fadeIn">
+                  <a href="##" class="item" data-scroll data-scroll-speed="1.6" aria-label="Engineering Design">
+                    <div class="item-content">
+                      <div class="img">
+                        <img src="assets/images/bulk-head.jpg" alt="">
+                      </div>
+                      <div class="text">
+                        <div class="text-content">
+                          <p>Engineering Design</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="##" class="item" aria-label="Thermal Tracking System">
+                    <div class="item-content">
+                      <div class="img">
+                        <img src="assets/images/IMG_9976.jpg" alt="">
+                      </div>
+                      <div class="text">
+                        <div class="text-content">
+                          <p>Thermal Tracking System</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="##" class="item" aria-label="ATOM Prototype">
+                    <div class="item-content">
+                      <div class="img">
+                        <img src="assets/images/daddy.jpg" alt="">
+                      </div>
+                      <div class="text">
+                        <div class="text-content">
+                          <p>A.T.O.M. Prototype</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="##" class="item" data-scroll data-scroll-speed="1.6" aria-label="Marketing">
+                    <div class="item-content">
+                      <div class="img">
+                        <img src="assets/images/red-bull.jpg" alt="">
+                      </div>
+                      <div class="text">
+                        <div class="text-content">
+                          <p>Marketing</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="##" class="item" data-scroll data-scroll-speed="1.6"
+                    aria-label="">
+                    <div class="item-content">
+                      <div class="img">
+                        <img src="assets/images/walter-white.jpg" alt="">
+                      </div>
+                      <div class="text">
+                        <div class="text-content">
+                          <p>Manufacturing</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="##" class="item" data-scroll data-scroll-speed="1.6" aria-label="Subsea">
+                    <div class="item-content">
+                      <div class="img">
+                        <img src="assets/images/no-no-mask.jpg" alt="">
+                      </div>
+                      <div class="text">
+                        <div class="text-content">
+                          <p></p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="##" class="item" aria-label="Science & tech">
+                    <div class="item-content">
+                      <div class="img">
+                        <img src="assets/images/IMG_9978.jpg" alt="">
+                      </div>
+                      <div class="text">
+                        <div class="text-content">
+                          <p></p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="text-and-img">
+                <div class="left-text wowo fadeInUp">
+                  <div class="text-content">
+                    <h2>Partners</h2>
+                    
+                    <p>We are proud to represent our valued partners and sponsors, whose invaluable support makes everything we do possible.
+                    Thanks to their generous contributions, ACR can pursue ambitious rocketry projects and compete at the highest levels in Canada.</p>
+                  </div>
+                </div>
+                <div class="col-box">
+                  <div class="item wowo fadeInUp">
+                    <div class="img">
+                      <img src="assets/images/sponsor-cnl - copy.png" alt="">
+                    </div>
+                    <div class="text">
+                      <div class="img-wrapper">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item wowo fadeInUp">
+                    <div class="img">
+                      <img src="assets/images/banner-bg-img.png" alt="">
+                    </div>
+                    <div class="text">
+                      <div class="img-wrapper">
+                        <img src=" assets/images/sponsor-camcor-banner.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="item wowo fadeInUp">
+                    <div class="img">
+                      <img src="assets/images/sponsor-nrc.png" alt="">
+                    </div>
+                    <div class="text">
+                      <div class="img-wrapper">
+                        <img src="assets/images/sponsor-nrc-banner.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item wowo fadeInUp">
+                    <div class="img">
+                      <img src="assets/images/sponsor-3dprint.png" alt="">
+                    </div>
+                    <div class="text">
+                      <div class="img-wrapper">
+                        <img src="assets/images/##" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item wowo fadeInUp" style="--item-bgc:#050D0B">
+                    <div class="img">
+                      <img src="assets/images/sponsor-fineline.jpeg" alt="">
+                    </div>
+                    <div class="text">
+                      <div class="img-wrapper">
+                        <img src="assets/images/sponsor-fineline-banner.jpg" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <!-- New Sponsor Template
+                  <div class="item wowo fadeInUp" style="--item-bgc:#"> 
+                    <div class="img">
+                      <img src="assets/images/_____" alt="">
+                    </div>
+                    <div class="text">
+                      <div class="img-wrapper">
+                        <img src="assets/images/_____" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  -->
+                </div>
+                <div class="right-text wowo fadeInUp">
+                  <div class="text-content">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>      
+      <!-- block contact -->
+      <section class="block-contact">
+        <div class="container">
+          <div class="content">
+            <div class="media wowo fadeIn">
+              <div class="media-wrapper">
+                <img src="/assets/images/Rockets0089.jpg">
+              </div>
+            </div>
+            <div class="text" id="contact">
+              <div class="text-content">
+                <div class="left">
+                  <div class="left-content wowo fadeInUp">
+                    <h2><a href="#edge-open">Donate</a></h2>
+                    <div class="btn orange-btn">
+                
+                </div>
+                    <p>Every donation helps power our team to compete and succeed at Launch Canada</p>
+
+                  </div>
+                </div>
+                <div class="right">
+                  <div class="right-content wowo fadeInUp">
+                    <ul>
+                      <li>
+                        <p class="title">Direct</p>
+                        <p>Tel: <a href="tel:7059853031">(705)-985-3031</a></p>
+                        
+                      </li>
+                      <li>
+                        <p class="title">Email</p>
+                        <p><a href="mailto:AlgonquinCollegeRocketry@gmail.com">AlgonquinCollegeRocketry@gmail.com</a></p>
+                      </li>
+                      <li>
+                        <p>AC Rocketry
+                          <a href="https://maps.app.goo.gl/cXRiaWNJiGTasgE67">1385 Woodroffe Ave<br />Ottawa
+                            On, K2G 1V8 Canada</a>
+                        </p>
+                      </li>
+                      <li>
+                        <p class="thin-text">
+                          AC Rocketry LTD.&copy;. All Rights Reserved <br />
+                          <br />
+                          Developed by Yassin Abdelgawad & Isaac Rogers
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <div class="edge-pop">
+    <div class="pop-box">
+      <div class="box-content">
+        <div class="img">
+          <img src="assets/images/logo.png" alt="">
+        </div>
+        <div class="text">
+          <h2>DONATE TO THE CAUSE </h2>
+          <h3>Donation Instructions</h3>
+          <div class="text-body">
+            <p><strong><a href="https://www.algonquincollege.com/advancement/donate/" target="_blank"><span class="color-green">CLICK HERE:</a></span></strong>
+              This link will take you to the official Algonquin College Donation website.</p>
+            <p><strong>Your Donation<span class="color-green">:</span></strong> Select whether you would like to donate once or monthly and select the amount you wish to donate. Any amount helps the team greatly.</p>
+            <p><strong>Fund<span class="color-green">:</span></strong> When donating to a club at Algonquin College, you must select "Other (indicate in your note to us below)" in the drop-down menu.</p>
+            <p><strong>Note<span class="color-green">:</span></strong> Just under the drop down menu where you selected "Other," there is an option to add a private message. In order for us to receive the money you send it must have a message stating the donation is intended toward the <span class="color-green">Algonquin College Rocketry Team</span>.</p>
+            <p><strong>Payment<span class="color-green">:</span></strong>Once the previous steps are completed carefully, simply fill in the payment details to finish your donation. The Algonuqin College Rocketry Team is forever greatful.</p>
+          </div>
+          <div class="btn btn-primary pop-close">
+            <span>EXIT</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <svg class="cursor" width="20" height="20" viewBox="0 0 20 20">
+    <circle class="cursor-inner" cx="10" cy="10" r="5"></circle>
+  </svg>
+
+  <script src="assets/js/script.js"></script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "ACRocketry",
+  "alternateName": "Algonquin College Rocketry Team",
+  "description": "Student team at Algonquin College developing, building, designing, and competing with advanced rockets.",
+  "url": "https://yourdomain.com",
+  "logo": "https://yourdomain.com/assets/images/logo.png",
+  "email": "AlgonquinCollegeRocketry@gmail.com",
+  "foundingDate": "2023",
+  "numberOfEmployees": "25",
+  "memberOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "Algonquin College",
+    "url": "https://www.algonquincollege.com"
+  },
+  "department": {
+    "@type": "Organization",
+    "name": "Algonquin College Faculty of Engineering"
+  },
+  "keywords": "student rocketry, model rockets, competition rockets, Algonquin College, aerospace engineering",
+  "sameAs": [
+    "https://www.instagram.com/acrocketry",
+    "https://www.linkedin.com/company/acrocketry",
+    "https://www.facebook.com/ACRocketry"
+  ],
+  "sport": "Rocketry Competition",
+  "knowsAbout": [
+    "Model rocket design",
+    "Aerospace engineering",
+    "Propulsion systems",
+    "Competition rocketry"
+  ]
+}
+</script>
+</body>
+</html>
