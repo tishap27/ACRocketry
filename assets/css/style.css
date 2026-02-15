@@ -5079,6 +5079,27 @@ main.wrapper .gallery section.block-text-and-silder:first-child {
     right: 0
 }
 
+.block-text-and-gallery .row .photo-wall .photo-wrapper .item:nth-child(8) {
+    width: 18.5%;
+    aspect-ratio: 220/320;
+    top: 6%;
+    right: -2%;
+}
+
+.block-text-and-gallery .row .photo-wall .photo-wrapper .item:nth-child(9) {
+    width: 17.5%;
+    aspect-ratio: 220/320;
+    top: 38%;
+    right: -20%;
+}
+
+.block-text-and-gallery .row .photo-wall .photo-wrapper .item:nth-child(10) {
+    width: 17%;
+    aspect-ratio: 220/320;
+    bottom: -4%;
+    right: -22%;
+}
+
 .block-text-and-gallery .row .photo-wall .photo-wrapper .item .img {
     width: 100%;
     height: 100%
